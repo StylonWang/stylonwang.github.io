@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>My Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
       <style>
         # map {
           height: 75%;
@@ -22,6 +24,7 @@
           { center: { lat: 24.9976625, lng: 121.4609798 },
             zoom: 8
           });
+          console.log("created map object");
         }
       </script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKBOUha5dzYBwhgV6sa7VmA7gNhpwREts&callback=initMap" async defer></script>
