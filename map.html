@@ -5,8 +5,8 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
       <style>
-        # map {
-          height: 75%;
+        #map {
+          height: 100%;
         }
         html, body {
           height: 100%;
@@ -21,9 +21,12 @@
         var map;
         function initMap() {
           map = new google.maps.Map(document.getElementById('map'), 
-          { center: { lat: 24.997, lng: 121.460 },
+          { center: { lat: -34.397, lng: 150.644 },
+            zoom: 8
+          /*{ center: { lat: 24.997, lng: 121.460 },
             zoom: 8
           });
+          */
           console.log("created map object");
         }
       </script>
